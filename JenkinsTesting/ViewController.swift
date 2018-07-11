@@ -7,22 +7,22 @@
 //
 
 import UIKit
-import MBProgressHUD
+//import MBProgressHUD
 
 class ViewController: UIViewController {
-    var actIndicator: MBProgressHUD = MBProgressHUD()
+  //  var actIndicator: MBProgressHUD = MBProgressHUD()
     override func viewDidLoad() {
         super.viewDidLoad()
-        actIndicator = MBProgressHUD(view: self.view)
-        actIndicator.label.textColor = .black
-        actIndicator.label.text = "Loading..."
-        self.view.addSubview(actIndicator)
-        actIndicator.show(animated: true)
-        
-        let dispatchTime = DispatchTime.now() + 3.0
-        DispatchQueue.main.asyncAfter(deadline: dispatchTime) {
-            self.actIndicator.hide(animated: true)
-        }
+//        actIndicator = MBProgressHUD(view: self.view)
+//        actIndicator.label.textColor = .black
+//        actIndicator.label.text = "Loading..."
+//        self.view.addSubview(actIndicator)
+//        actIndicator.show(animated: true)
+//
+//        let dispatchTime = DispatchTime.now() + 3.0
+//        DispatchQueue.main.asyncAfter(deadline: dispatchTime) {
+//            self.actIndicator.hide(animated: true)
+//        }
         // Do any additional setup after loading the view, typically from a nib.
     }
 
