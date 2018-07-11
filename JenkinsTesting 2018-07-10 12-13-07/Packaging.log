@@ -1,0 +1,399 @@
+2018-07-10 06:42:24 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fcf7b4dc420; archive(resolved)='<IDEArchive: 0x7fcf782cd120>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7fcf79259180>', team(resolved)='<IDEProvisioningBasicTeam 0x7fcf7b3551b0: teamID: UAWU67869T, teamName: NIIT TECHNOLOGIES GMBH>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fcf7b4dc420; archive = '<IDEArchive: 0x7fcf782cd120>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fcf79259180>', team='<IDEProvisioningBasicTeam 0x7fcf7b3551b0: teamID: UAWU67869T, teamName: NIIT TECHNOLOGIES GMBH>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fcf7b373b20; archive = '<IDEArchive: 0x7fcf782cd120>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fcf79259180>', team='<IDEProvisioningBasicTeam 0x7fcf7b3551b0: teamID: UAWU67869T, teamName: NIIT TECHNOLOGIES GMBH>'>
+	<IDEDistributionContext: 0x7fcf7b3a3900; archive = '<IDEArchive: 0x7fcf782cd120>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fcf79259180>', team='<IDEProvisioningBasicTeam 0x7fcf7b3551b0: teamID: UAWU67869T, teamName: NIIT TECHNOLOGIES GMBH>'>
+	<IDEDistributionContext: 0x7fcf7b404a10; archive = '<IDEArchive: 0x7fcf782cd120>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fcf79259180>', team='<IDEProvisioningBasicTeam 0x7fcf7b3551b0: teamID: UAWU67869T, teamName: NIIT TECHNOLOGIES GMBH>'>
+	<IDEDistributionContext: 0x7fcf7b2dea90; archive = '<IDEArchive: 0x7fcf782cd120>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fcf79259180>', team='<IDEProvisioningBasicTeam 0x7fcf7b3551b0: teamID: UAWU67869T, teamName: NIIT TECHNOLOGIES GMBH>'>
+	<IDEDistributionContext: 0x7fcf7b448990; archive = '<IDEArchive: 0x7fcf782cd120>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fcf79259180>', team='<IDEProvisioningBasicTeam 0x7fcf7b3551b0: teamID: UAWU67869T, teamName: NIIT TECHNOLOGIES GMBH>'>
+	<IDEDistributionContext: 0x7fcf7b401a60; archive = '<IDEArchive: 0x7fcf782cd120>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fcf79259180>', team='<IDEProvisioningBasicTeam 0x7fcf7b3551b0: teamID: UAWU67869T, teamName: NIIT TECHNOLOGIES GMBH>'>
+	<IDEDistributionContext: 0x7fcf7b42d370; archive = '<IDEArchive: 0x7fcf782cd120>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fcf79259180>', team='<IDEProvisioningBasicTeam 0x7fcf7b3551b0: teamID: UAWU67869T, teamName: NIIT TECHNOLOGIES GMBH>'>
+	<IDEDistributionContext: 0x7fcf7b41c8f0; archive = '<IDEArchive: 0x7fcf782cd120>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fcf79259180>', team='<IDEProvisioningBasicTeam 0x7fcf7b3551b0: teamID: UAWU67869T, teamName: NIIT TECHNOLOGIES GMBH>'>
+	<IDEDistributionContext: 0x7fcf79335e00; archive = '<IDEArchive: 0x7fcf782cd120>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fcf79259180>', team='(null)'>
+	<IDEDistributionContext: 0x7fcf78335120; archive = '<IDEArchive: 0x7fcf782cd120>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fcf7b4dc420>
+2018-07-10 06:42:24 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-07-10 06:42:24 +0000  Processing step: IDEDistributionCopyItemStep
+2018-07-10 06:42:24 +0000  Running /usr/bin/ditto '-V' '/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app'
+2018-07-10 06:42:24 +0000  >>> Copying /Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app 
+2018-07-10 06:42:24 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-07-10 06:42:24 +0000  12809 bytes for ./_CodeSignature/CodeResources
+2018-07-10 06:42:24 +0000  copying file ./Appfile ... 
+2018-07-10 06:42:24 +0000  350 bytes for ./Appfile
+copying file ./archived-expanded-entitlements.xcent ... 
+2018-07-10 06:42:24 +0000  392 bytes for ./archived-expanded-entitlements.xcent
+2018-07-10 06:42:24 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-07-10 06:42:24 +0000  1136 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2018-07-10 06:42:24 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-07-10 06:42:24 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-07-10 06:42:24 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2018-07-10 06:42:24 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-07-10 06:42:24 +0000  1136 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-07-10 06:42:24 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-07-10 06:42:24 +0000  938 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2018-07-10 06:42:24 +0000  copying file ./embedded.mobileprovision ... 
+2018-07-10 06:42:24 +0000  7628 bytes for ./embedded.mobileprovision
+2018-07-10 06:42:24 +0000  copying file ./Fastfile ... 
+2018-07-10 06:42:24 +0000  1784 bytes for ./Fastfile
+2018-07-10 06:42:24 +0000  copying file ./Frameworks/libswiftCore.dylib ... 
+2018-07-10 06:42:24 +0000  21079488 bytes for ./Frameworks/libswiftCore.dylib
+copying file ./Frameworks/libswiftCoreData.dylib ... 
+2018-07-10 06:42:24 +0000  361472 bytes for ./Frameworks/libswiftCoreData.dylib
+copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+208192 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2018-07-10 06:42:24 +0000  577648 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2018-07-10 06:42:24 +0000  208752 bytes for ./Frameworks/libswiftCoreImage.dylib
+copying file ./Frameworks/libswiftDarwin.dylib ... 
+302960 bytes for ./Frameworks/libswiftDarwin.dylib
+copying file ./Frameworks/libswiftDispatch.dylib ... 
+2018-07-10 06:42:24 +0000  1009152 bytes for ./Frameworks/libswiftDispatch.dylib
+2018-07-10 06:42:24 +0000  copying file ./Frameworks/libswiftFoundation.dylib ... 
+2018-07-10 06:42:24 +0000  8413184 bytes for ./Frameworks/libswiftFoundation.dylib
+copying file ./Frameworks/libswiftMetal.dylib ... 
+2018-07-10 06:42:24 +0000  251152 bytes for ./Frameworks/libswiftMetal.dylib
+copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2018-07-10 06:42:24 +0000  258832 bytes for ./Frameworks/libswiftObjectiveC.dylib
+copying file ./Frameworks/libswiftos.dylib ... 
+2018-07-10 06:42:24 +0000  248800 bytes for ./Frameworks/libswiftos.dylib
+copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+2018-07-10 06:42:24 +0000  212096 bytes for ./Frameworks/libswiftQuartzCore.dylib
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+2018-07-10 06:42:24 +0000  361376 bytes for ./Frameworks/libswiftUIKit.dylib
+2018-07-10 06:42:24 +0000  copying file ./Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources ... 
+2018-07-10 06:42:24 +0000  2202 bytes for ./Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources
+2018-07-10 06:42:24 +0000  copying file ./Frameworks/MBProgressHUD.framework/Info.plist ... 
+2018-07-10 06:42:24 +0000  743 bytes for ./Frameworks/MBProgressHUD.framework/Info.plist
+2018-07-10 06:42:24 +0000  copying file ./Frameworks/MBProgressHUD.framework/MBProgressHUD ... 
+2018-07-10 06:42:24 +0000  171696 bytes for ./Frameworks/MBProgressHUD.framework/MBProgressHUD
+2018-07-10 06:42:24 +0000  copying file ./Info.plist ... 
+2018-07-10 06:42:24 +0000  1124 bytes for ./Info.plist
+2018-07-10 06:42:24 +0000  copying file ./Jenkinsfile ... 
+2018-07-10 06:42:24 +0000  2544 bytes for ./Jenkinsfile
+copying file ./JenkinsTesting ... 
+2018-07-10 06:42:24 +0000  86256 bytes for ./JenkinsTesting
+2018-07-10 06:42:24 +0000  copying file ./JenkinsTesting.momd/JenkinsTesting.mom ... 
+2018-07-10 06:42:24 +0000  513 bytes for ./JenkinsTesting.momd/JenkinsTesting.mom
+copying file ./JenkinsTesting.momd/JenkinsTesting.omo ... 
+2018-07-10 06:42:24 +0000  696 bytes for ./JenkinsTesting.momd/JenkinsTesting.omo
+copying file ./JenkinsTesting.momd/VersionInfo.plist ... 
+2018-07-10 06:42:24 +0000  165 bytes for ./JenkinsTesting.momd/VersionInfo.plist
+2018-07-10 06:42:24 +0000  copying file ./PkgInfo ... 
+2018-07-10 06:42:24 +0000  8 bytes for ./PkgInfo
+copying file ./README.md ... 
+2018-07-10 06:42:24 +0000  898 bytes for ./README.md
+copying file ./report.xml ... 
+2018-07-10 06:42:24 +0000  508 bytes for ./report.xml
+2018-07-10 06:42:24 +0000  /usr/bin/ditto exited with 0
+2018-07-10 06:42:24 +0000  Processing step: IDEDistributionEmbedProfileStep
+2018-07-10 06:42:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fcf7833eb40 'com.matej.MBProgressHUD' '<DVTFilePath:0x7fcf793aad70:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/MBProgressHUD.framework'>'>
+2018-07-10 06:42:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fcf7b212590 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fcf79397790:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftCore.dylib'>'>
+2018-07-10 06:42:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fcf7b356820 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fcf7939e4b0:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftCoreData.dylib'>'>
+2018-07-10 06:42:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fcf7b304bd0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fcf793a2620:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-07-10 06:42:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fcf7b25d3c0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fcf78343010:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-07-10 06:42:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fcf7b323150 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fcf783e1b20:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-07-10 06:42:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fcf7b315d10 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fcf7b362530:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-07-10 06:42:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fcf7b24d4a0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fcf7b317c20:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-07-10 06:42:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fcf793b4730 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fcf793a3d60:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-07-10 06:42:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fcf7b306420 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fcf793a50f0:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftMetal.dylib'>'>
+2018-07-10 06:42:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fcf7b32af10 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fcf793a6750:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-07-10 06:42:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fcf7b439080 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fcf793a8980:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-07-10 06:42:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fcf791f1050 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fcf793a41c0:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-07-10 06:42:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fcf79174930 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fcf793a7840:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftos.dylib'>'>
+2018-07-10 06:42:24 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-07-10 06:42:24 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-07-10 06:42:24 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-07-10 06:42:24 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-07-10 06:42:24 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-07-10 06:42:25 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-07-10 06:42:25 +0000  Processing step: IDEDistributionSymbolsStep
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-07-10 06:42:25 +0000  Processing step: IDEDistributionAppThinningStep
+2018-07-10 06:42:25 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-07-10 06:42:25 +0000  Processing step: IDEDistributionODRStep
+2018-07-10 06:42:25 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-07-10 06:42:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fcf7833eb40 'com.matej.MBProgressHUD' '<DVTFilePath:0x7fcf793aad70:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/MBProgressHUD.framework'>'>
+2018-07-10 06:42:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fcf7b212590 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fcf79397790:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftCore.dylib'>'>
+2018-07-10 06:42:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fcf7b356820 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fcf7939e4b0:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftCoreData.dylib'>'>
+2018-07-10 06:42:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fcf7b304bd0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fcf793a2620:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-07-10 06:42:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fcf7b25d3c0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fcf78343010:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-07-10 06:42:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fcf7b323150 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fcf783e1b20:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-07-10 06:42:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fcf7b315d10 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fcf7b362530:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-07-10 06:42:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fcf7b24d4a0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fcf7b317c20:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-07-10 06:42:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fcf793b4730 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fcf793a3d60:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-07-10 06:42:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fcf7b306420 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fcf793a50f0:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftMetal.dylib'>'>
+2018-07-10 06:42:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fcf7b32af10 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fcf793a6750:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-07-10 06:42:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fcf7b439080 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fcf793a8980:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-07-10 06:42:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fcf791f1050 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fcf793a41c0:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-07-10 06:42:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fcf79174930 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fcf793a7840:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftos.dylib'>'>
+2018-07-10 06:42:25 +0000  Running /usr/bin/xattr '-crs' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app'
+2018-07-10 06:42:25 +0000  /usr/bin/xattr exited with 0
+2018-07-10 06:42:25 +0000  Processing step: IDEDistributionCodesignStep
+2018-07-10 06:42:25 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fcf7833eb40 'com.matej.MBProgressHUD' '<DVTFilePath:0x7fcf793aad70:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/MBProgressHUD.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fcf7b2b1710>: {
+}
+2018-07-10 06:42:25 +0000  Entitlements for <IDEDistributionItem: 0x7fcf7833eb40 'com.matej.MBProgressHUD' '<DVTFilePath:0x7fcf793aad70:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/MBProgressHUD.framework'>'>: {
+}
+2018-07-10 06:42:25 +0000  Writing entitlements for <IDEDistributionItem: 0x7fcf7833eb40 'com.matej.MBProgressHUD' '<DVTFilePath:0x7fcf793aad70:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/MBProgressHUD.framework'>'> to: /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlementsH114Zu
+2018-07-10 06:42:25 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8C276CA6FA5DC7F2B3D45CC1C9ACD89AE3D7A11C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlementsH114Zu' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/MBProgressHUD.framework'
+2018-07-10 06:42:25 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/MBProgressHUD.framework: replacing existing signature
+2018-07-10 06:42:25 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/MBProgressHUD.framework: signed bundle with Mach-O universal (arm64) [com.matej.MBProgressHUD]
+2018-07-10 06:42:25 +0000  /usr/bin/codesign exited with 0
+2018-07-10 06:42:25 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fcf7b212590 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fcf79397790:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fcf7b26ed50>: {
+}
+2018-07-10 06:42:25 +0000  Entitlements for <IDEDistributionItem: 0x7fcf7b212590 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fcf79397790:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+2018-07-10 06:42:25 +0000  Writing entitlements for <IDEDistributionItem: 0x7fcf7b212590 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fcf79397790:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlementsu8i71w
+2018-07-10 06:42:25 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8C276CA6FA5DC7F2B3D45CC1C9ACD89AE3D7A11C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlementsu8i71w' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftCore.dylib'
+2018-07-10 06:42:25 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftCore.dylib: replacing existing signature
+2018-07-10 06:42:25 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2018-07-10 06:42:25 +0000  /usr/bin/codesign exited with 0
+2018-07-10 06:42:25 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fcf7b356820 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fcf7939e4b0:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftCoreData.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fcf7b401bf0>: {
+}
+2018-07-10 06:42:25 +0000  Entitlements for <IDEDistributionItem: 0x7fcf7b356820 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fcf7939e4b0:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftCoreData.dylib'>'>: {
+}
+2018-07-10 06:42:25 +0000  Writing entitlements for <IDEDistributionItem: 0x7fcf7b356820 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fcf7939e4b0:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftCoreData.dylib'>'> to: /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlements6jbrkH
+2018-07-10 06:42:25 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8C276CA6FA5DC7F2B3D45CC1C9ACD89AE3D7A11C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlements6jbrkH' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftCoreData.dylib'
+2018-07-10 06:42:25 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftCoreData.dylib: replacing existing signature
+2018-07-10 06:42:25 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftCoreData.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreData]
+2018-07-10 06:42:25 +0000  /usr/bin/codesign exited with 0
+2018-07-10 06:42:25 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fcf7b304bd0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fcf793a2620:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftCoreFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fcf78333d10>: {
+}
+2018-07-10 06:42:25 +0000  Entitlements for <IDEDistributionItem: 0x7fcf7b304bd0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fcf793a2620:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2018-07-10 06:42:25 +0000  Writing entitlements for <IDEDistributionItem: 0x7fcf7b304bd0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fcf793a2620:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlementshJ0d4y
+2018-07-10 06:42:25 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8C276CA6FA5DC7F2B3D45CC1C9ACD89AE3D7A11C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlementshJ0d4y' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftCoreFoundation.dylib'
+2018-07-10 06:42:25 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2018-07-10 06:42:25 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2018-07-10 06:42:25 +0000  /usr/bin/codesign exited with 0
+2018-07-10 06:42:25 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fcf7b25d3c0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fcf78343010:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftCoreGraphics.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fcf783833a0>: {
+}
+2018-07-10 06:42:25 +0000  Entitlements for <IDEDistributionItem: 0x7fcf7b25d3c0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fcf78343010:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2018-07-10 06:42:25 +0000  Writing entitlements for <IDEDistributionItem: 0x7fcf7b25d3c0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fcf78343010:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlements02AmjE
+2018-07-10 06:42:25 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8C276CA6FA5DC7F2B3D45CC1C9ACD89AE3D7A11C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlements02AmjE' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftCoreGraphics.dylib'
+2018-07-10 06:42:25 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2018-07-10 06:42:26 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2018-07-10 06:42:26 +0000  /usr/bin/codesign exited with 0
+2018-07-10 06:42:26 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fcf7b323150 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fcf783e1b20:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftCoreImage.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fcf78382ff0>: {
+}
+2018-07-10 06:42:26 +0000  Entitlements for <IDEDistributionItem: 0x7fcf7b323150 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fcf783e1b20:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2018-07-10 06:42:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7fcf7b323150 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fcf783e1b20:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlementsmDh2eY
+2018-07-10 06:42:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8C276CA6FA5DC7F2B3D45CC1C9ACD89AE3D7A11C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlementsmDh2eY' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftCoreImage.dylib'
+2018-07-10 06:42:26 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2018-07-10 06:42:26 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2018-07-10 06:42:26 +0000  /usr/bin/codesign exited with 0
+2018-07-10 06:42:26 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fcf7b315d10 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fcf7b362530:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftDarwin.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fcf783c5a50>: {
+}
+2018-07-10 06:42:26 +0000  Entitlements for <IDEDistributionItem: 0x7fcf7b315d10 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fcf7b362530:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2018-07-10 06:42:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7fcf7b315d10 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fcf7b362530:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlementsBGVeRH
+2018-07-10 06:42:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8C276CA6FA5DC7F2B3D45CC1C9ACD89AE3D7A11C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlementsBGVeRH' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftDarwin.dylib'
+2018-07-10 06:42:26 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2018-07-10 06:42:26 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2018-07-10 06:42:26 +0000  /usr/bin/codesign exited with 0
+2018-07-10 06:42:26 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fcf7b24d4a0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fcf7b317c20:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftDispatch.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fcf7b2008e0>: {
+}
+2018-07-10 06:42:26 +0000  Entitlements for <IDEDistributionItem: 0x7fcf7b24d4a0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fcf7b317c20:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2018-07-10 06:42:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7fcf7b24d4a0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fcf7b317c20:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlementsOZ2QAi
+2018-07-10 06:42:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8C276CA6FA5DC7F2B3D45CC1C9ACD89AE3D7A11C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlementsOZ2QAi' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftDispatch.dylib'
+2018-07-10 06:42:26 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2018-07-10 06:42:26 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2018-07-10 06:42:26 +0000  /usr/bin/codesign exited with 0
+2018-07-10 06:42:26 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fcf793b4730 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fcf793a3d60:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fcf7b420180>: {
+}
+2018-07-10 06:42:26 +0000  Entitlements for <IDEDistributionItem: 0x7fcf793b4730 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fcf793a3d60:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2018-07-10 06:42:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7fcf793b4730 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fcf793a3d60:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlements11avY4
+2018-07-10 06:42:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8C276CA6FA5DC7F2B3D45CC1C9ACD89AE3D7A11C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlements11avY4' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftFoundation.dylib'
+2018-07-10 06:42:26 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2018-07-10 06:42:26 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2018-07-10 06:42:26 +0000  /usr/bin/codesign exited with 0
+2018-07-10 06:42:26 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fcf7b306420 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fcf793a50f0:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftMetal.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fcf7b279460>: {
+}
+2018-07-10 06:42:26 +0000  Entitlements for <IDEDistributionItem: 0x7fcf7b306420 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fcf793a50f0:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2018-07-10 06:42:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7fcf7b306420 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fcf793a50f0:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlementstTg7Mj
+2018-07-10 06:42:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8C276CA6FA5DC7F2B3D45CC1C9ACD89AE3D7A11C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlementstTg7Mj' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftMetal.dylib'
+2018-07-10 06:42:26 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftMetal.dylib: replacing existing signature
+2018-07-10 06:42:26 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2018-07-10 06:42:26 +0000  /usr/bin/codesign exited with 0
+2018-07-10 06:42:26 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fcf7b32af10 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fcf793a6750:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftObjectiveC.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fcf78316750>: {
+}
+2018-07-10 06:42:26 +0000  Entitlements for <IDEDistributionItem: 0x7fcf7b32af10 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fcf793a6750:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2018-07-10 06:42:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7fcf7b32af10 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fcf793a6750:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlementsDDthqf
+2018-07-10 06:42:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8C276CA6FA5DC7F2B3D45CC1C9ACD89AE3D7A11C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlementsDDthqf' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftObjectiveC.dylib'
+2018-07-10 06:42:26 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2018-07-10 06:42:26 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2018-07-10 06:42:26 +0000  /usr/bin/codesign exited with 0
+2018-07-10 06:42:26 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fcf7b439080 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fcf793a8980:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftQuartzCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fcf7b434820>: {
+}
+2018-07-10 06:42:26 +0000  Entitlements for <IDEDistributionItem: 0x7fcf7b439080 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fcf793a8980:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2018-07-10 06:42:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7fcf7b439080 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fcf793a8980:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlementsY1oEi8
+2018-07-10 06:42:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8C276CA6FA5DC7F2B3D45CC1C9ACD89AE3D7A11C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlementsY1oEi8' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftQuartzCore.dylib'
+2018-07-10 06:42:27 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2018-07-10 06:42:27 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2018-07-10 06:42:27 +0000  
+2018-07-10 06:42:27 +0000  /usr/bin/codesign exited with 0
+2018-07-10 06:42:27 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fcf791f1050 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fcf793a41c0:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftUIKit.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fcf7b2f8780>: {
+}
+2018-07-10 06:42:27 +0000  Entitlements for <IDEDistributionItem: 0x7fcf791f1050 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fcf793a41c0:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+2018-07-10 06:42:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7fcf791f1050 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fcf793a41c0:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlements5on0IG
+2018-07-10 06:42:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8C276CA6FA5DC7F2B3D45CC1C9ACD89AE3D7A11C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlements5on0IG' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftUIKit.dylib'
+2018-07-10 06:42:27 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftUIKit.dylib: replacing existing signature
+2018-07-10 06:42:27 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2018-07-10 06:42:27 +0000  /usr/bin/codesign exited with 0
+2018-07-10 06:42:27 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fcf79174930 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fcf793a7840:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftos.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fcf7b2f8a70>: {
+}
+2018-07-10 06:42:27 +0000  Entitlements for <IDEDistributionItem: 0x7fcf79174930 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fcf793a7840:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftos.dylib'>'>: {
+}
+2018-07-10 06:42:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7fcf79174930 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fcf793a7840:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlementsEPd6Up
+2018-07-10 06:42:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8C276CA6FA5DC7F2B3D45CC1C9ACD89AE3D7A11C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlementsEPd6Up' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftos.dylib'
+2018-07-10 06:42:27 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftos.dylib: replacing existing signature
+2018-07-10 06:42:27 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2018-07-10 06:42:27 +0000  /usr/bin/codesign exited with 0
+2018-07-10 06:42:27 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fcf7b341360 'com.jenkinsoffshore.jenkins' '<DVTFilePath:0x7fcf793605f0:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7fcf783fbfe0>: {
+}
+2018-07-10 06:42:27 +0000  Entitlements for <IDEDistributionItem: 0x7fcf7b341360 'com.jenkinsoffshore.jenkins' '<DVTFilePath:0x7fcf793605f0:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app'>'>: {
+    "application-identifier" = "UAWU67869T.com.jenkinsoffshore.jenkins";
+    "com.apple.developer.team-identifier" = UAWU67869T;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "UAWU67869T.com.jenkinsoffshore.jenkins"
+    );
+}
+2018-07-10 06:42:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7fcf7b341360 'com.jenkinsoffshore.jenkins' '<DVTFilePath:0x7fcf793605f0:'/Users/Shared/Jenkins/Library/Developer/Xcode/Archives/2018-07-10/JenkinsTesting 10-07-18, 12.12 PM.xcarchive/Products/Applications/JenkinsTesting.app'>'> to: /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlementsRzqO4b
+2018-07-10 06:42:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8C276CA6FA5DC7F2B3D45CC1C9ACD89AE3D7A11C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/entitlementsRzqO4b' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app'
+2018-07-10 06:42:27 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app: replacing existing signature
+2018-07-10 06:42:27 +0000  /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root/Payload/JenkinsTesting.app: signed app bundle with Mach-O thin (arm64) [com.jenkinsoffshore.jenkins]
+2018-07-10 06:42:27 +0000  /usr/bin/codesign exited with 0
+2018-07-10 06:42:27 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2018-07-10 06:42:27 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-10 06:42:27 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-10 06:42:27 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-10 06:42:27 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-10 06:42:27 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-10 06:42:27 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-10 06:42:27 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-10 06:42:27 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-10 06:42:27 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-10 06:42:27 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-10 06:42:27 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-10 06:42:27 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-10 06:42:27 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-10 06:42:27 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-10 06:42:27 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-10 06:42:27 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-07-10 06:42:27 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root' '/var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Packages/JenkinsTesting.ipa'
+2018-07-10 06:42:27 +0000  >>> Copying /var/folders/qh/6_rbs3cd5tqcvdkdyqzc2c2c0000_h/T/XcodeDistPipeline.zzo/Root 
+2018-07-10 06:42:27 +0000  copying file ./Payload/JenkinsTesting.app/_CodeSignature/CodeResources ... 
+2018-07-10 06:42:27 +0000  12809 bytes for ./Payload/JenkinsTesting.app/_CodeSignature/CodeResources
+2018-07-10 06:42:27 +0000  copying file ./Payload/JenkinsTesting.app/Appfile ... 
+350 bytes for ./Payload/JenkinsTesting.app/Appfile
+2018-07-10 06:42:27 +0000  copying file ./Payload/JenkinsTesting.app/archived-expanded-entitlements.xcent ... 
+2018-07-10 06:42:27 +0000  392 bytes for ./Payload/JenkinsTesting.app/archived-expanded-entitlements.xcent
+copying file ./Payload/JenkinsTesting.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-07-10 06:42:27 +0000  1136 bytes for ./Payload/JenkinsTesting.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/JenkinsTesting.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-07-10 06:42:27 +0000  258 bytes for ./Payload/JenkinsTesting.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/JenkinsTesting.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-07-10 06:42:27 +0000  832 bytes for ./Payload/JenkinsTesting.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2018-07-10 06:42:27 +0000  copying file ./Payload/JenkinsTesting.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-07-10 06:42:27 +0000  1136 bytes for ./Payload/JenkinsTesting.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/JenkinsTesting.app/Base.lproj/Main.storyboardc/Info.plist ... 
+258 bytes for ./Payload/JenkinsTesting.app/Base.lproj/Main.storyboardc/Info.plist
+2018-07-10 06:42:27 +0000  copying file ./Payload/JenkinsTesting.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-07-10 06:42:27 +0000  938 bytes for ./Payload/JenkinsTesting.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/JenkinsTesting.app/embedded.mobileprovision ... 
+2018-07-10 06:42:27 +0000  7628 bytes for ./Payload/JenkinsTesting.app/embedded.mobileprovision
+copying file ./Payload/JenkinsTesting.app/Fastfile ... 
+2018-07-10 06:42:27 +0000  1784 bytes for ./Payload/JenkinsTesting.app/Fastfile
+copying file ./Payload/JenkinsTesting.app/Frameworks/libswiftCore.dylib ... 
+2018-07-10 06:42:28 +0000  21079840 bytes for ./Payload/JenkinsTesting.app/Frameworks/libswiftCore.dylib
+copying file ./Payload/JenkinsTesting.app/Frameworks/libswiftCoreData.dylib ... 
+2018-07-10 06:42:28 +0000  394592 bytes for ./Payload/JenkinsTesting.app/Frameworks/libswiftCoreData.dylib
+copying file ./Payload/JenkinsTesting.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2018-07-10 06:42:28 +0000  208544 bytes for ./Payload/JenkinsTesting.app/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Payload/JenkinsTesting.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2018-07-10 06:42:28 +0000  578000 bytes for ./Payload/JenkinsTesting.app/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Payload/JenkinsTesting.app/Frameworks/libswiftCoreImage.dylib ... 
+2018-07-10 06:42:28 +0000  209104 bytes for ./Payload/JenkinsTesting.app/Frameworks/libswiftCoreImage.dylib
+copying file ./Payload/JenkinsTesting.app/Frameworks/libswiftDarwin.dylib ... 
+2018-07-10 06:42:28 +0000  303312 bytes for ./Payload/JenkinsTesting.app/Frameworks/libswiftDarwin.dylib
+2018-07-10 06:42:28 +0000  copying file ./Payload/JenkinsTesting.app/Frameworks/libswiftDispatch.dylib ... 
+2018-07-10 06:42:28 +0000  1009504 bytes for ./Payload/JenkinsTesting.app/Frameworks/libswiftDispatch.dylib
+copying file ./Payload/JenkinsTesting.app/Frameworks/libswiftFoundation.dylib ... 
+2018-07-10 06:42:29 +0000  8413536 bytes for ./Payload/JenkinsTesting.app/Frameworks/libswiftFoundation.dylib
+copying file ./Payload/JenkinsTesting.app/Frameworks/libswiftMetal.dylib ... 
+2018-07-10 06:42:29 +0000  251504 bytes for ./Payload/JenkinsTesting.app/Frameworks/libswiftMetal.dylib
+2018-07-10 06:42:29 +0000  copying file ./Payload/JenkinsTesting.app/Frameworks/libswiftObjectiveC.dylib ... 
+2018-07-10 06:42:29 +0000  259184 bytes for ./Payload/JenkinsTesting.app/Frameworks/libswiftObjectiveC.dylib
+copying file ./Payload/JenkinsTesting.app/Frameworks/libswiftos.dylib ... 
+2018-07-10 06:42:29 +0000  249152 bytes for ./Payload/JenkinsTesting.app/Frameworks/libswiftos.dylib
+copying file ./Payload/JenkinsTesting.app/Frameworks/libswiftQuartzCore.dylib ... 
+2018-07-10 06:42:29 +0000  212448 bytes for ./Payload/JenkinsTesting.app/Frameworks/libswiftQuartzCore.dylib
+copying file ./Payload/JenkinsTesting.app/Frameworks/libswiftUIKit.dylib ... 
+2018-07-10 06:42:29 +0000  361744 bytes for ./Payload/JenkinsTesting.app/Frameworks/libswiftUIKit.dylib
+2018-07-10 06:42:29 +0000  copying file ./Payload/JenkinsTesting.app/Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources ... 
+2018-07-10 06:42:29 +0000  2202 bytes for ./Payload/JenkinsTesting.app/Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources
+copying file ./Payload/JenkinsTesting.app/Frameworks/MBProgressHUD.framework/Info.plist ... 
+2018-07-10 06:42:29 +0000  743 bytes for ./Payload/JenkinsTesting.app/Frameworks/MBProgressHUD.framework/Info.plist
+copying file ./Payload/JenkinsTesting.app/Frameworks/MBProgressHUD.framework/MBProgressHUD ... 
+2018-07-10 06:42:29 +0000  172000 bytes for ./Payload/JenkinsTesting.app/Frameworks/MBProgressHUD.framework/MBProgressHUD
+2018-07-10 06:42:29 +0000  copying file ./Payload/JenkinsTesting.app/Info.plist ... 
+2018-07-10 06:42:29 +0000  1124 bytes for ./Payload/JenkinsTesting.app/Info.plist
+copying file ./Payload/JenkinsTesting.app/Jenkinsfile ... 
+2018-07-10 06:42:29 +0000  2544 bytes for ./Payload/JenkinsTesting.app/Jenkinsfile
+copying file ./Payload/JenkinsTesting.app/JenkinsTesting ... 
+2018-07-10 06:42:29 +0000  86256 bytes for ./Payload/JenkinsTesting.app/JenkinsTesting
+2018-07-10 06:42:29 +0000  copying file ./Payload/JenkinsTesting.app/JenkinsTesting.momd/JenkinsTesting.mom ... 
+513 bytes for ./Payload/JenkinsTesting.app/JenkinsTesting.momd/JenkinsTesting.mom
+2018-07-10 06:42:29 +0000  copying file ./Payload/JenkinsTesting.app/JenkinsTesting.momd/JenkinsTesting.omo ... 
+696 bytes for ./Payload/JenkinsTesting.app/JenkinsTesting.momd/JenkinsTesting.omo
+copying file ./Payload/JenkinsTesting.app/JenkinsTesting.momd/VersionInfo.plist ... 
+2018-07-10 06:42:29 +0000  165 bytes for ./Payload/JenkinsTesting.app/JenkinsTesting.momd/VersionInfo.plist
+copying file ./Payload/JenkinsTesting.app/PkgInfo ... 
+2018-07-10 06:42:29 +0000  8 bytes for ./Payload/JenkinsTesting.app/PkgInfo
+copying file ./Payload/JenkinsTesting.app/README.md ... 
+898 bytes for ./Payload/JenkinsTesting.app/README.md
+copying file ./Payload/JenkinsTesting.app/report.xml ... 
+2018-07-10 06:42:29 +0000  508 bytes for ./Payload/JenkinsTesting.app/report.xml
+2018-07-10 06:42:29 +0000  /usr/bin/ditto exited with 0
+2018-07-10 06:42:29 +0000  Processing step: IDEDistributionCreateManifestStep
