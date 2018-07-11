@@ -12,28 +12,28 @@ node {
             doGenerateSubmoduleConfigurations: false,
             extensions: [[$class: 'CleanBeforeCheckout']], submoduleCfg: [],
             userRemoteConfigs: [[
-                credentialsId: '075e374f-41fa-49aa-80da-d3d613769036',
-                url: 'http://Parijatchandra@scmci.noncd.rz.db.de/bitbucket/scm/zcit/z_citest.git'
+                credentialsId: '6c17c82f-93e1-4c72-904d-593e5accd4c3',
+                url: 'http://https://github.com/parijatc/Z_CITEST-copy.git'
             ]]
         ])
     }
 
     stage('build') {
         // Build
-        //sh 'security unlock-keychain -p jenkins ${HOME}/Library/Keychains/login.keychain'
+        //sh 'security unlock-keychain -p jenkins ${HOME}/Library/Keychains/jenkins.keychain'
 
-        sh 'security set-key-partition-list -S apple-tool:,apple:,codesign: -s -k Aleem@1234 login.keychain'
+        sh 'security set-key-partition-list -S apple-tool:,apple:,codesign: -s -k  niit123 login.keychain'
 
-        sh '/usr/bin/xcodebuild -scheme JenkinsTesting -configuration Release clean build archive -archivePath /Users/Shared/Jenkins/Home/workspace/z_citest/build/Release-iphoneos/JenkinsTesting.xcarchive DEVELOPMENT_TEAM=TN3QZKXQS6'
+        sh '/usr/bin/xcodebuild -scheme JenkinsTesting -configuration Release clean build archive -archivePath /Users/Shared/Jenkins/Home/workspace/z_citest/build/Release-iphoneos/JenkinsTesting.xcarchive DEVELOPMENT_TEAM=UAWU67869T'
 
-        sh '/usr/bin/xcodebuild -exportArchive -archivePath /Users/Shared/Jenkins/Home/workspace/z_citest/build/Release-iphoneos/JenkinsTesting.xcarchive -exportPath /Users/Shared/Jenkins/Home/workspace/z_citest/build -exportOptionsPlist /Users/Shared/Jenkins/Home/workspace/z_citest/build/developmentTN3QZKXQS6Export.plist'
+        sh '/usr/bin/xcodebuild -exportArchive -archivePath /Users/Shared/Jenkins/Home/workspace/z_citest/build/Release-iphoneos/JenkinsTesting.xcarchive -exportPath /Users/Shared/Jenkins/Home/workspace/z_citest/build -exportOptionsPlist /Users/Shared/Jenkins/Home/workspace/z_citest/build/ad-hocUAWU67869TExportOptions.plist'
     }
 
     stage('fastlane') {
         sh 'whereis fastlane'
 
         dir ('/Users/Shared/Jenkins/z_citest') {
-            fastlane("test")
+            fastlane("beta")
         }
        //sh 'fastlane("beta")'
     }
@@ -57,8 +57,8 @@ node {
 def fastlane(lane) {
 def env = [
 "PATH+LOCAL=/usr/local/bin/",
-"HTTP_PROXY=http://dmzproxy.tech.rz.db.de:8080",
-"HTTPS_PROXY=http://dmzproxy.tech.rz.db.de:8080",
+//“HTTP_PROXY=http://dmzproxy.tech.rz.db.de:8080",
+//“HTTPS_PROXY=http://dmzproxy.tech.rz.db.de:8080",
 "LC_ALL=en_US.UTF-8",
 "LANG=en_US.UTF-8",
 "FASTLANE_EXPLICIT_OPEN_SIMULATOR=2"
