@@ -22,7 +22,7 @@ node {
         // Build
         //sh 'security unlock-keychain -p jenkins ${HOME}/Library/Keychains/jenkins.keychain'
 
-        sh 'security set-key-partition-list -S apple-tool:,apple:,codesign: -s -k  niit123 login.keychain'
+        sh 'security set-key-partition-list -S apple-tool:,apple:,codesign: -s -k  niit123 jenkins.keychain'
 
         sh '/usr/bin/xcodebuild -scheme JenkinsTesting -configuration Release clean build archive -archivePath /Users/Shared/Jenkins/Home/workspace/pipelinetest1/build/Release-iphoneos/JenkinsTesting.xcarchive DEVELOPMENT_TEAM=UAWU67869T'
 
