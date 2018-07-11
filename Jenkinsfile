@@ -8,7 +8,7 @@ node {
         // Checkout files.
         checkout([
             $class: 'GitSCM',
-            branches: [[name: '*/develop']],
+            branches: [[name: '*/master']],
             doGenerateSubmoduleConfigurations: false,
             extensions: [[$class: 'CleanBeforeCheckout']], submoduleCfg: [],
             userRemoteConfigs: [[
@@ -24,16 +24,16 @@ node {
 
         sh 'security set-key-partition-list -S apple-tool:,apple:,codesign: -s -k  niit123 login.keychain'
 
-        sh '/usr/bin/xcodebuild -scheme JenkinsTesting -configuration Release clean build archive -archivePath /Users/Shared/Jenkins/Home/workspace/z_citest/build/Release-iphoneos/JenkinsTesting.xcarchive DEVELOPMENT_TEAM=UAWU67869T'
+        sh '/usr/bin/xcodebuild -scheme JenkinsTesting -configuration Release clean build archive -archivePath /Users/Shared/Jenkins/Home/workspace/pipelinetest1/build/Release-iphoneos/JenkinsTesting.xcarchive DEVELOPMENT_TEAM=UAWU67869T'
 
-        sh '/usr/bin/xcodebuild -exportArchive -archivePath /Users/Shared/Jenkins/Home/workspace/z_citest/build/Release-iphoneos/JenkinsTesting.xcarchive -exportPath /Users/Shared/Jenkins/Home/workspace/z_citest/build -exportOptionsPlist /Users/Shared/Jenkins/Home/workspace/z_citest/build/ad-hocUAWU67869TExportOptions.plist'
+        sh '/usr/bin/xcodebuild -exportArchive -archivePath /Users/Shared/Jenkins/Home/workspace/z_citest/build/Release-iphoneos/JenkinsTesting.xcarchive -exportPath /Users/Shared/Jenkins/Home/workspace/pipelinetest1/build -exportOptionsPlist /Users/Shared/Jenkins/Home/workspace/pipelinetest1/build/ad-hocUAWU67869TExportOptions.plist'
     }
 
     stage('fastlane') {
         sh 'whereis fastlane'
 
         dir ('/Users/Shared/Jenkins/z_citest') {
-            fastlane("beta")
+            fastlane("scan")
         }
        //sh 'fastlane("beta")'
     }
