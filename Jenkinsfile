@@ -13,7 +13,7 @@ node {
             extensions: [[$class: 'CleanBeforeCheckout']], submoduleCfg: [],
             userRemoteConfigs: [[
                 credentialsId: '6c17c82f-93e1-4c72-904d-593e5accd4c3',
-                url: 'http://https://github.com/parijatc/Z_CITEST-copy.git'
+                url: 'https://github.com/parijatc/Z_CITEST-copy.git'
             ]]
         ])
     }
