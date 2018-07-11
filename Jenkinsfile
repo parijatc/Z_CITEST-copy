@@ -8,7 +8,7 @@ node {
         // Checkout files.
         checkout([
             $class: 'GitSCM',
-            branches: [[name: '*/develop']],
+            branches: [[name: '*/master']],
             doGenerateSubmoduleConfigurations: false,
             extensions: [[$class: 'CleanBeforeCheckout']], submoduleCfg: [],
             userRemoteConfigs: [[
