@@ -33,7 +33,7 @@ node {
         sh 'whereis fastlane'
 
         dir ('/Users/Shared/Jenkins/z_citest') {
-            fastlane("beta")
+            fastlane("scan")
         }
        //sh 'fastlane("beta")'
     }
