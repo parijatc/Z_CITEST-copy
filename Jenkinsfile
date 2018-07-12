@@ -18,7 +18,15 @@ node {
         ])
     }
 
-    stage('build') {
+
+stage('build') {
+
+sh 'whereis fastlane'
+
+dir ('/Users/Shared/Jenkins/Home/workspace/PipelineGitHub/') {
+fastlane("beta")
+}
+
         // Build
         //sh 'security unlock-keychain -p jenkins ${HOME}/Library/Keychains/jenkins.keychain'
 
